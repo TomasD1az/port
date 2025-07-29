@@ -1,5 +1,3 @@
-# Portafolio Web Personal
-
 # Portafolio Web
 
 Un sitio simple donde muestro quién soy y algunas cosas que hice.  
