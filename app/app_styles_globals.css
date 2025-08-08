@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic page sizing */
+html, body, #__next {
+  height: 100%;
+}
+
+/* Canvas cleanup (drei Stats uses a canvas overlay) */
+.r3f-stats {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 50;
+}
+
+/* Focus ring for accessibility */
+:focus {
+  outline: 3px solid rgba(16, 185, 129, 0.7);
+  outline-offset: 2px;
+}
